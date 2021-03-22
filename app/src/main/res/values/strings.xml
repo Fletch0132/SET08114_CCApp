@@ -1,0 +1,72 @@
+
+<resources>
+
+    <string name="app_name" translatable="false">CharacterDesignApp</string>
+
+    //CHARACTER ARRAYS
+    //Array for skin tones
+    <string-array name="skin_tone">
+        <item>Fair</item>
+        <item>Medium</item>
+        <item>Olive</item>
+        <item>Tan</item>
+        <item>Brown</item>
+    </string-array>
+
+    //Array for eye colour
+    <string-array name="eye_colour">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Brown</item>
+    </string-array>
+
+    //Array for hair colour
+    <string-array name="hair_colour">
+        <item>Dark Brown</item>
+        <item>Light Brown</item>
+        <item>Black</item>
+        <item>Blonde</item>
+        <item>Auburn</item>
+        <item>Grey</item>
+        <item>White</item>
+    </string-array>
+
+    //Array for MALE hair style
+    <string-array name="male_hair_style">
+        <item>Curly</item>
+        <item>Spiky</item>
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+        <item>Buzzcut</item>
+        <item>Bald</item>
+    </string-array>
+
+    //Array for FEMALE hair style
+    <string-array name="female_hair_style">
+        <item>Curly</item>
+        <item>Wavy</item>
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+        <item>Braided</item>
+        <item>Bobbed</item>
+    </string-array>
+
+    //Array for facial hair
+    <string-array name="facial_hair">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    //AlertDialog
+    <string name="character_creation">AlertDialog</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Character Design Alert Dialog</string>
+
+
+
+
+
+</resources>

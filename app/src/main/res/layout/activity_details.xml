@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityThreeDetails">
+
+    //First Name Title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="First Name:"
+        android:textSize="14sp" />
+    //First Name text box for user input
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp" />
+
+
+    //Last Name Title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Last Name:"
+        android:textSize="14sp" />
+    //Last Name text box for user input
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp" />
+
+
+    //Other details Title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Other Details:"
+        android:textSize="14sp" />
+    //Other details checkboxes for user interaction
+    //Mole(s)
+    <CheckBox
+        android:id="@+id/checkboxMoles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mole(s)"
+        android:layout_marginLeft="40dp" />
+    //Scar(s)
+    <CheckBox
+        android:id="@+id/checkboxScars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scar(s)"
+        android:layout_marginLeft="40dp" />
+    //Freckles
+    <CheckBox
+        android:id="@+id/checkboxFreckles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Freckles"
+        android:layout_marginLeft="40dp" />
+    //Tattoo(s)
+    <CheckBox
+        android:id="@+id/checkboxTattoos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tattoo(s)"
+        android:layout_marginLeft="40dp" />
+    //Piercing(s)
+    <CheckBox
+        android:id="@+id/checkboxPiercings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piercing(s)"
+        android:layout_marginLeft="40dp" />
+
+
+
+    //Button navigating to Display - where all details displayed
+    <Button
+        android:id="@+id/btnNextDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Next"/>
+</LinearLayout>

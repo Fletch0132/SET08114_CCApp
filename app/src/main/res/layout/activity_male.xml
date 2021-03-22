@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityTwoMale">
+
+
+
+    //Age title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="Age:"
+        android:textSize="14sp" />
+    //age text box for user input
+    <EditText
+        android:id="@+id/txtMaleAge"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="number" />
+
+
+    //Skin Tone title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Skin Tone:"
+        android:textSize="14sp" />
+    //Skin tone spinner for user input
+    <Spinner
+        android:id="@+id/spinnerMaleSkin"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:entries="@array/skin_tone" />
+
+
+    //Eye colour title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Eye Colour:"
+        android:textSize="14sp" />
+    //Eye colour spinner for user input
+    <Spinner
+        android:id="@+id/spinnerMaleEyes"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:entries="@array/eye_colour" />
+
+
+    //Hair colour title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Hair Colour:"
+        android:textSize="14sp" />
+    //Hair colour spinner for user input
+    <Spinner
+        android:id="@+id/spinnerMaleHairC"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:entries="@array/hair_colour" />
+
+
+    //Hair style title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Hair Style:"
+        android:textSize="14sp" />
+    //Hair style spinner for user input
+    <Spinner
+        android:id="@+id/spinnerMaleHairS"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:entries="@array/male_hair_style" />
+
+
+    //Facial hair title
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Facial Hair:"
+        android:textSize="14sp" />
+    //Facial hair spinner
+    <Spinner
+        android:id="@+id/spinnerFacialHair"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:entries="@array/facial_hair" />
+
+
+    //Button navigating to Character Details
+    <Button
+        android:id="@+id/btnNextDetails"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Next" />
+
+
+    </LinearLayout>
